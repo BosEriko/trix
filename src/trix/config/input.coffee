@@ -1,8 +1,6 @@
 Trix.config.input =
   level2Enabled: true
 
-  urlValidator: "(^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$)|(\{\{([^)]+)\}\})"
-
   getLevel: ->
     if @level2Enabled and Trix.browser.supportsInputEvents
       2
