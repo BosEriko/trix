@@ -1,4 +1,5 @@
 {lang} = Trix.config
+{input} = Trix.config
 
 Trix.config.toolbar =
   getDefaultHTML: -> """
